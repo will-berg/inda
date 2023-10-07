@@ -1,0 +1,5 @@
+If written answers are required, you can add them to this file. Just copy the relevant questions from the root of the repo, preferably in [Markdown](https://guides.github.com/features/mastering-markdown/) format :)
+
+**4.44. Consider how you might play multiple tracks in a random order. Would you want to make sure that all tracks are played equally or prefer favorite tracks? How might a “play count” field in the Track class help with this task? Discuss the various options.**
+
+To do this you could always loop the code from 4.43 so that it executes multiple times. Using a play count field in the track class that tracks how many times a song has been played could help you make a restriction stating that every song may only be played once. If we wanted to make it so that some songs are played more than others, we could simply not allow some songs to be played that we don't want to hear at all or use an Iterator to remove songs from the list that have already been played. This makes it so they won't be played again. 
